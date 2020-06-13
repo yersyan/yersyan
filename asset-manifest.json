@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/yersyan/static/css/main.f8413478.chunk.css",
+    "main.js": "/yersyan/static/js/main.18040858.chunk.js",
+    "main.js.map": "/yersyan/static/js/main.18040858.chunk.js.map",
+    "runtime-main.js": "/yersyan/static/js/runtime-main.ef6a29f7.js",
+    "runtime-main.js.map": "/yersyan/static/js/runtime-main.ef6a29f7.js.map",
+    "static/js/2.4869b403.chunk.js": "/yersyan/static/js/2.4869b403.chunk.js",
+    "static/js/2.4869b403.chunk.js.map": "/yersyan/static/js/2.4869b403.chunk.js.map",
+    "index.html": "/yersyan/index.html",
+    "precache-manifest.f0be089ea842617d753e5ba42cdeaa7d.js": "/yersyan/precache-manifest.f0be089ea842617d753e5ba42cdeaa7d.js",
+    "service-worker.js": "/yersyan/service-worker.js",
+    "static/css/main.f8413478.chunk.css.map": "/yersyan/static/css/main.f8413478.chunk.css.map",
+    "static/js/2.4869b403.chunk.js.LICENSE.txt": "/yersyan/static/js/2.4869b403.chunk.js.LICENSE.txt",
+    "static/media/css.png": "/yersyan/static/media/css.87d5873e.png",
+    "static/media/en.png": "/yersyan/static/media/en.0b26829b.png",
+    "static/media/git.png": "/yersyan/static/media/git.662edfd2.png",
+    "static/media/int.png": "/yersyan/static/media/int.b4002e70.png",
+    "static/media/js.png": "/yersyan/static/media/js.c7e23dee.png",
+    "static/media/php.png": "/yersyan/static/media/php.a584bd8b.png",
+    "static/media/ps.png": "/yersyan/static/media/ps.f2fb5371.png",
+    "static/media/react.png": "/yersyan/static/media/react.13368578.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef6a29f7.js",
+    "static/js/2.4869b403.chunk.js",
+    "static/css/main.f8413478.chunk.css",
+    "static/js/main.18040858.chunk.js"
+  ]
+}
