@@ -1,0 +1,16 @@
+.header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 5rem 1rem 0 6rem;
+    grid-row: 1;
+    background-color: #294396;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+}

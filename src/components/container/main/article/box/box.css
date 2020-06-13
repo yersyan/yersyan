@@ -1,0 +1,78 @@
+.box{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.boxColumn{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.boxRow{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0.5rem;
+    border-left: 1px solid lightgreen;
+    margin: 0 0.5rem;
+}
+.boxImg{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.boxDate{
+    font-size: 1.5rem;
+    color: lightskyblue;
+}
+.boxTitle{
+    font-size: 1.2rem;
+}
+.boxText{
+    font-size: 0.9rem;
+    letter-spacing: unset;
+}
+
+.rightBoxRow{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    align-items: flex-end;
+    order: -1;
+    text-align: right;
+    border-right: 1px solid lightgreen;
+}
+@media (max-width: 767px){
+    .box{
+        flex-direction: column;
+        text-align: center;
+    }
+    .boxRow{
+        display: flex;
+        flex-direction: column;
+        border-left: none;
+        margin: 0.5rem 0;
+    }
+    .boxImgBlock{
+        border-bottom: 1px solid lightgreen;
+        padding: 0.5rem 0;
+    }
+    .boxDate{
+        border-bottom: 1px solid lightgreen;
+        padding: 0.5rem 0;
+    }
+    .rightBoxRow{
+        order: unset;
+        align-items: center;
+        text-align: center;
+        border-right: none;
+        padding: 0.5rem 0;
+    }
+}
+@media (max-width: 767px){
+    .boxColumn{
+        align-items: center;
+    }
+    .boxDate{
+        font-size: 1rem;
+    }
+}

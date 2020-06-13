@@ -1,0 +1,26 @@
+.languagesMenu{
+    padding: 1rem 0.5rem;
+    background-color: #008488;
+    border-radius: 1.6rem;
+    line-height: 0.7;
+    z-index: 1;
+    list-style: none;
+    display: flex;
+}
+.langImg{
+    width: 2rem;
+    height: 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.langImg:hover{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+.active{
+    width: 2rem;
+    height: 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    transform: scale(1.5);
+}

@@ -1,0 +1,26 @@
+.block:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 30rem solid #294396;
+    border-left: 70rem solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+@media (max-width: 767px){
+    .block:after{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px){
+    .block:after{
+        border-left: 40rem solid transparent;
+    }
+}
+@media (min-width: 1820px){
+    .block:after{
+        border-left: 90rem solid transparent;
+    }
+}

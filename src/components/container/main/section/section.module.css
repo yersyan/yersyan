@@ -1,0 +1,16 @@
+.sectionPage{
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionRowBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px){
+    .sectionRowBlock{
+        flex-direction: column;
+    }
+}

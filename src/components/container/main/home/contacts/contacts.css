@@ -1,0 +1,44 @@
+.contacts{
+    width: 25rem;
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1;
+}
+
+.contact{
+    width: 10rem;
+    margin: 0.5rem;
+    border: 0.1rem solid lightgreen;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    background: linear-gradient(to right, #294396 50%, #050E24 50%) right bottom;
+    background-size: 200% 100%;
+    transition: all .5s ease-out;
+    cursor: pointer;
+    z-index: 1;
+}
+.contact:hover{
+    background-position: left bottom;
+}
+.telephone:hover:before{
+    content: "+374 ** ** ** **";
+}
+.eMail:hover:before{
+    content: "***@gmail.com";
+}
+.telegram:hover:before{
+    content: "+374 ** ** ** **";
+}
+.facebook:hover:before{
+    content: "y**.s**";
+}
+.contact:hover span{
+    display: none;
+}
+@media (max-width: 767px) {
+    .contacts{
+        width: unset;
+    }
+}
